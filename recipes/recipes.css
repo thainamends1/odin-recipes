@@ -8,11 +8,20 @@ body {
     background-color: azure;
 }
 
+a:link{
+    text-decoration: none;
+}
 img {
     width: 400px;
 }
 
 ul,
 ol {
+    list-style: none;
+}
+
+
+a {
+    color: black;
     list-style: none;
 }
